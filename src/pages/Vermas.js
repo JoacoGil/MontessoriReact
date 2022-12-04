@@ -19,7 +19,7 @@ function Vermas() {
 
   const location = useLocation();
 
-  if (location.state.imagen2 == "-" && location.state.imagen3 == "-") {
+  if (location.state.imagen2 === "-" && location.state.imagen3 === "-") {
     return (
       <div id="containervermas">
         <div className="divimg">
@@ -47,7 +47,7 @@ function Vermas() {
         </div>
       </div>
     );
-  } else if (location.state.imagen3 == "-") {
+  } else if (location.state.imagen3 === "-") {
     return (
       <div id="containervermas">
         <div className="divimg">
