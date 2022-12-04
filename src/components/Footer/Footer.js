@@ -12,12 +12,15 @@ export const Footer = () => {
                 montessoriuruguayofficial@gmail.com
             </p>
             <div id="containerig">
-                <a href="https://www.instagram.com/montessori_uy/" target="_blank">
+                <a href="https://www.instagram.com/montessori_uy/" target="_blank" rel="noreferrer">
                     <img src={require(`../../img/ig-instagram-icon.png`)} alt="logo IG" id="logoig"/>
                 </a>
-                <a href="https://www.instagram.com/montessori_uy/" target="_blank">@Montessori_uy</a>
+                <a href="https://www.instagram.com/montessori_uy/" target="_blank" rel="noreferrer">@Montessori_uy</a>
             </div>
-            <div id="containerig"><a href="https://www.facebook.com/uy.montessori" target="_blank"><img src={require(`../../img/facebook-app-icon.png`)} alt="logo IG" id="logoig"/></a><a href="https://www.facebook.com/uy.montessori" target="_blank">Montessori_uy</a></div>
+            <div id="containerig">
+                <a href="https://www.facebook.com/uy.montessori" target="_blank" rel="noreferrer"><img src={require(`../../img/facebook-app-icon.png`)} alt="logo IG" id="logoig"/></a>
+                <a href="https://www.facebook.com/uy.montessori" target="_blank" rel="noreferrer">Montessori_uy</a>
+            </div>
         </div>
         <div className="copyright">
         <p id="copyright">Copyright © 2022 Montessori_uy. Todos los derechos reservados.</p>
