@@ -15,6 +15,7 @@
 }
 #navbar li {
   float: left;
+  color: black;
 }
 #navbar li img {
   width: 50px;
@@ -25,6 +26,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: black;
 }
 #navbar li a:hover {
   color: rgb(138, 138, 138);
