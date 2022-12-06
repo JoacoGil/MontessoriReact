@@ -34,5 +34,14 @@
           "imagen": "Barras",
           "imagen2": "Barras2",
           "imagen3": "-"
+    },
+    {
+      "id": "5",
+          "nombre": "Muñecos Paw Patrol",
+          "precio": "200",
+          "descripcion": "Muñecos de pawpatrol coloridos de plástico biodegradable",
+          "imagen": "Pawpatrol",
+          "imagen2": "Pawpatrol2",
+          "imagen3": "-"
     }
   ]

@@ -1,36 +1,37 @@
 import "./Vermas.css";
 import { useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function Vermas() {
-  const mainImage = document.getElementById("main-image");
-  const images = document.querySelectorAll(".product__image");
-
-  images.forEach((image) => {
-    image.addEventListener("click", (event) => {
-      mainImage.src = event.target.src;
-
-      document
-        .querySelector(".product__image--active")
-        .classList.remove("product__image--active");
-
-      event.target.classList.add("product__image--active");
-    });
-  });
-
+  
   const location = useLocation();
+
+  const [imagen, setImagen] = useState(location.state.imagen);
+
 
   if (location.state.imagen2 === "-" && location.state.imagen3 === "-") {
     return (
-      <div id="containervermas">
+        <div id="containervermas">
         <div className="divimg">
           <div className="product">
             <div className="product__images">
               <img
                 src={require(`../img/Producto-${location.state.imagen}.JPG`)}
                 alt="img product"
-                className="product__main-image"
+                className="product__main-image product__image--active"
                 id="main-image"
               />
+
+              <div className="product__slider-wrap">
+                <div className="product__slider">
+                <img
+                    src={require(`../img/Producto-${location.state.imagen}.JPG`)}
+                    alt="imgproduct"
+                    className="product__image product__image--active"
+                    onClick={() => setImagen(location.state.imagen)}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@ function Vermas() {
           <div className="product">
             <div className="product__images">
               <img
-                src={require(`../img/Producto-${location.state.imagen}.JPG`)}
+                src={require(`../img/Producto-${imagen}.JPG`)}
                 alt="img product"
                 className="product__main-image"
                 id="main-image"
@@ -62,10 +63,17 @@ function Vermas() {
 
               <div className="product__slider-wrap">
                 <div className="product__slider">
+                <img
+                    src={require(`../img/Producto-${location.state.imagen}.JPG`)}
+                    alt="imgproduct"
+                    className="product__image product__image--active"
+                    onClick={() => setImagen(location.state.imagen)}
+                  />
                   <img
                     src={require(`../img/Producto-${location.state.imagen2}.JPG`)}
                     alt="imgproduct"
-                    className="product__image product__image--active"
+                    className="product__image"
+                    onClick={() => setImagen(location.state.imagen2)}
                   />
                 </div>
               </div>
@@ -87,12 +95,12 @@ function Vermas() {
     );
   } else
     return (
-      <div id="containervermas">
+        <div id="containervermas">
         <div className="divimg">
           <div className="product">
             <div className="product__images">
               <img
-                src={require(`../img/Producto-${location.state.imagen}.JPG`)}
+                src={require(`../img/Producto-${imagen}.JPG`)}
                 alt="img product"
                 className="product__main-image"
                 id="main-image"
@@ -100,15 +108,23 @@ function Vermas() {
 
               <div className="product__slider-wrap">
                 <div className="product__slider">
+                <img
+                    src={require(`../img/Producto-${location.state.imagen}.JPG`)}
+                    alt="imgproduct"
+                    className="product__image product__image--active"
+                    onClick={() => setImagen(location.state.imagen)}
+                  />
                   <img
                     src={require(`../img/Producto-${location.state.imagen2}.JPG`)}
                     alt="imgproduct"
-                    className="product__image product__image--active"
+                    className="product__image"
+                    onClick={() => setImagen(location.state.imagen2)}
                   />
                   <img
                     src={require(`../img/Producto-${location.state.imagen3}.JPG`)}
                     alt="imgproduct"
-                    className="product__image product__image--active"
+                    className="product__image"
+                    onClick={() => setImagen(location.state.imagen3)}
                   />
                 </div>
               </div>

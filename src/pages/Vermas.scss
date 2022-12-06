@@ -97,7 +97,6 @@
     max-height: 100px;
     object-fit: cover;
     cursor: pointer;
-    opacity: 0.5;
     margin: 0.25rem;
     border: 1px solid #070707;
   }
@@ -111,11 +110,7 @@
   }
   
   .product__image:hover {
-    opacity: 1;
-  }
-  
-  .product__image--active {
-    opacity: 1;
+    border: 2px solid red;
   }
   
   .product__slider::-webkit-scrollbar {

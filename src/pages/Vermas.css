@@ -63,7 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: start;
 }
 
 .product__main-image {
@@ -95,7 +95,6 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  opacity: 0.5;
   margin: 0.25rem;
   border: 1px solid #070707;
 }
@@ -109,11 +108,7 @@ body {
 }
 
 .product__image:hover {
-  opacity: 1;
-}
-
-.product__image--active {
-  opacity: 1;
+  border: 2px solid red;
 }
 
 .product__slider::-webkit-scrollbar {
