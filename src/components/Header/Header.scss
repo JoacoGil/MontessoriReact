@@ -28,6 +28,9 @@
         padding: 14px 16px;
         text-decoration: none;
         color: black;
+        @media (max-width: 450px) {
+          padding: 14px 10px;
+        }
       }
       
       /* Change the link color to #111 (black) on hover */

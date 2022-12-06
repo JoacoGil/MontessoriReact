@@ -29,6 +29,11 @@
   text-decoration: none;
   color: black;
 }
+@media (max-width: 450px) {
+  #navbar li a {
+    padding: 14px 10px;
+  }
+}
 #navbar li a:hover {
   color: rgb(138, 138, 138);
 }
