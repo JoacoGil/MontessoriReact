@@ -40,8 +40,8 @@ const Contacto = () => {
                 </div>
                 
                 <div id="containerig">
-                    <a href="https://www.facebook.com/uy.montessori" target="_blank" rel="noreferrer"><img src={require(`./../img/wa-whatsapp-icon.png`)} alt="logo IG" id="logoig"/></a>
-                    <a href="https://www.facebook.com/uy.montessori" target="_blank" rel="noreferrer">094 495 933</a>
+                    <a href="https://wa.me/59894495933" target="_blank" rel="noreferrer"><img src={require(`./../img/wa-whatsapp-icon.png`)} alt="logo IG" id="logoig"/></a>
+                    <a href="https://wa.me/59894495933" target="_blank" rel="noreferrer">094 495 933</a>
                 </div>
           </div>
 
