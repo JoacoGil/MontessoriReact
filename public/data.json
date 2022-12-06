@@ -43,5 +43,14 @@
           "imagen": "Pawpatrol",
           "imagen2": "Pawpatrol2",
           "imagen3": "-"
+    },
+    {
+      "id": "6",
+          "nombre": "Muñecos Paw Patrol 2",
+          "precio": "200",
+          "descripcion": "Muñecos de pawpatrol coloridos de plástico biodegradable",
+          "imagen": "Pawpatrol",
+          "imagen2": "Pawpatrol2",
+          "imagen3": "-"
     }
   ]
