@@ -7,8 +7,12 @@
         font-family: arial;
         text-decoration: none;
         color: black;
+        background-color: white;
+        border-radius: 10px;
         img{
             width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         }
         p{
             margin-top: 5%;
@@ -49,6 +53,8 @@
         cursor: pointer;
         width: 100%;
         font-size: 18px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
       }
       
       .card button:hover {

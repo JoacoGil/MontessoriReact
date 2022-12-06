@@ -1,0 +1,28 @@
+#containertextoabout{
+    a img{
+        padding: 15%;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    #logoig{
+        width: 50px;
+        height: 50px;
+    }
+    #containerig{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    #containerredes{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+    }
+}

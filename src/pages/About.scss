@@ -1,0 +1,53 @@
+#containerabout{
+    overflow-x: hidden;
+    background-image: url(./../img/aboutusimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #greycurtain{
+        background-color: rgba(255, 255, 255, 0.781);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #containertextoabout{
+        background-color: white;
+        padding: 2%;
+        background: #e0e0e0;
+        background: #ffffff;
+        box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+        h1{
+            text-align: center;
+        }
+        text-align:left;
+        @media (max-width: 1200px) {
+            text-align: center;
+          }
+        width: 60%;
+        p{
+            font-weight: 500;
+        }
+        #divtitleimg{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: 5%;
+            @media (max-width: 900px) {
+                flex-direction: column;
+                gap: 20px;
+              }
+            img{
+                width: 100px;
+            }
+        }
+    }
+}

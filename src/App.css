@@ -5,7 +5,7 @@
 
 html, body {
   font-size: 18px;
-  background-color: #f5f6f7;
+  background-color: #F9E6E6;
 }
 
 header {
@@ -15,6 +15,7 @@ header {
 .App {
   min-height: 100vh;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .contenedor-principal {
@@ -25,6 +26,7 @@ header {
 }
 
 .Container {
+  padding-bottom: 20%;
   width: 90%;
   margin: 0 auto;
 }

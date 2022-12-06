@@ -10,7 +10,7 @@ export const Header = () => {
             <NavLink to="/"><img src={require(`../../img/LogoMontessori.png`)} alt="" /></NavLink>
           </li>
           <li>
-            <NavLink to={"/"}>Inicio</NavLink>
+            <NavLink to={"/"}>Catálogo</NavLink>
           </li>
           <li>
             <NavLink to={"contacto"}>Contacto</NavLink>

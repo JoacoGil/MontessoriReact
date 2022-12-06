@@ -1,0 +1,26 @@
+#containertextoabout a img {
+  padding: 15%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+#containertextoabout #logoig {
+  width: 50px;
+  height: 50px;
+}
+#containertextoabout #containerig {
+  display: flex;
+  align-items: center;
+}
+#containertextoabout #containerig a {
+  text-decoration: none;
+  color: black;
+}
+#containertextoabout #containerig a:hover {
+  text-decoration: underline;
+}
+#containertextoabout #containerredes {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
