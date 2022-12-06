@@ -23,6 +23,11 @@ footer{
         -webkit-column-gap: 50px;
         -moz-column-gap: 50px;
         column-gap: 50px;
+        p{
+            @media (max-width: 630px) {
+                text-align: center;
+              }
+        }
         a img{
             padding: 15%;
             width: 100px;

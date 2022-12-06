@@ -18,6 +18,11 @@ footer .grid {
   -moz-column-gap: 50px;
   column-gap: 50px;
 }
+@media (max-width: 630px) {
+  footer .grid p {
+    text-align: center;
+  }
+}
 footer .grid a img {
   padding: 15%;
   width: 100px;
