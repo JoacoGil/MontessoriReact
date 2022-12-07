@@ -9,7 +9,6 @@ function Inicio() {
         .then((response) => response.json())
         .then((data)=>setData(data));
     },[]);
-    console.log(data)
   return (
       <div className="Container">
          <h1 id='nuestrosproductos'>Nuestros Productos</h1>
