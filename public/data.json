@@ -7,5 +7,23 @@
       "imagen": "LaberintoCorazon",
       "imagen2": "-",
       "imagen3": "-"
+    },
+    {
+      "id": "2",
+      "nombre": "Torre de Animales",
+      "precio": "780",
+      "descripcion": "Torres de animales por piezas, realizado en madera, super coloridos.",
+      "imagen": "TorreAnimales",
+      "imagen2": "-",
+      "imagen3": "-"
+    },
+    {
+      "id": "3",
+      "nombre": "Juego de enhebrado Ananá",
+      "precio": "700",
+      "descripcion": "Juego de enhebrado con forma de ananá. El material de enhebrado favorece la motricidad fina. El trabajo de pinza ayuda en la aprención del lápiz más adelante. La concentración y el disfrute material. Está hecho en madera, muy colorido y atractivo para aprender jugando",
+      "imagen": "EnhebradoAnana",
+      "imagen2": "-",
+      "imagen3": "-"
     }
   ]
