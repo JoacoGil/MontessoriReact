@@ -25,5 +25,23 @@
       "imagen": "EnhebradoAnana",
       "imagen2": "-",
       "imagen3": "-"
+    },
+    {
+      "id": "4",
+      "nombre": "Juego de enhebrado Frutilla",
+      "precio": "700",
+      "descripcion": "Juego de enhebrado con forma de Frutilla. El material de enhebrado favorece la motricidad fina. El trabajo de pinza ayuda en la aprención del lápiz más adelante. La concentración y el disfrute material. Está hecho en madera, muy colorido y atractivo para aprender jugando",
+      "imagen": "EnhebradoFrutilla",
+      "imagen2": "-",
+      "imagen3": "-"
+    },
+    {
+      "id": "5",
+      "nombre": "Enhebrado de figuras",
+      "precio": "800",
+      "descripcion": "Juego de enhebrado con varias piezas, formas y figuras, muy colorido, realizado en madera.",
+      "imagen": "EnhebradoFrutas",
+      "imagen2": "-",
+      "imagen3": "-"
     }
   ]
